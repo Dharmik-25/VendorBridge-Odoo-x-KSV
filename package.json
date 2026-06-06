@@ -1,0 +1,16 @@
+{
+  "name": "vendorbridge",
+  "version": "1.0.0",
+  "description": "Procurement & Vendor Management ERP — Odoo x KSV Hackathon 2026",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "prisma:migrate": "cd server && npx prisma migrate dev",
+    "prisma:studio": "cd server && npx prisma studio",
+    "prisma:seed": "cd server && npx prisma db seed"
+  },
+  "keywords": ["procurement", "erp", "vendor-management", "odoo", "hackathon"],
+  "author": "VendorBridge Team",
+  "license": "MIT"
+}
